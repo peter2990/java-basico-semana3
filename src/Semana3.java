@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Semana3 {
     public static void main(String[] args) {
         //cualquier cosa
@@ -22,6 +24,14 @@ public class Semana3 {
         // operador Matematico
         int suma = numeroEntero + 37;
         System.out.println("el resutado es " + suma);
+
+
+        // lectura por teclado
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("numero Entero: ");
+        numeroEntero = scanner.nextShort();
+        System.out.print("El numero leido es " + numeroEntero);
+
 
 
 
